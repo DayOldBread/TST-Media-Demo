@@ -1,0 +1,12 @@
+This project is a demo iOS  project built for the 2nd step of my interview with TST Media.  The requirements for the demo were as follows:
+
+Build a mini iOS demo application that uses one of the following public APIs from below. Return data from the API  (any data you wish) and display it within at least two screen sequences within the mobile application. Use any of the native iOS controls/components to display the returned data. Submit the project code to a GitHub account (http://www.github.com) and give user gblasko and cehlebracht access to the project for review.
+
+Public REST APIs
+Twitter (https://dev.twitter.com/docs/api)
+Google Search (http://code.google.com/apis/customsearch/v1/overview.html)
+eBay (http://developer.ebay.com/common/api/)
+Flickr (http://www.flickr.com/services/api/)
+
+APP Description:
+I chose to use the twitter API.  The app has 3 screens.  The first screen is a table view showing the top world trending topics (using data received from an API call).  When one selects one of the topics, a new screen appears with a table showing results of a search on that topic (using data received from the search API).  When one of those search results is selected, a final screen appears showing the full text of the chosen tweet.
